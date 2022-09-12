@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/2345106/AndroidStudioProjects/AndroidStudioProjects/DivergeApp/app/src/main/res/layout/activity_cart_view.xml" value="0.2171350861287398" />
+        <entry key="..\:/Users/2345106/AndroidStudioProjects/AndroidStudioProjects/DivergeApp/app/src/main/res/layout/activity_category.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/2345106/AndroidStudioProjects/AndroidStudioProjects/DivergeApp/app/src/main/res/layout/activity_change_password.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/2345106/AndroidStudioProjects/AndroidStudioProjects/DivergeApp/app/src/main/res/layout/activity_check_out.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/2345106/AndroidStudioProjects/AndroidStudioProjects/DivergeApp/app/src/main/res/layout/activity_main.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/2345106/AndroidStudioProjects/AndroidStudioProjects/DivergeApp/app/src/main/res/layout/activity_sign_up.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/2345106/AndroidStudioProjects/AndroidStudioProjects/DivergeApp/app/src/main/res/layout/activity_store.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/2345106/AndroidStudioProjects/AndroidStudioProjects/DivergeApp/app/src/main/res/layout/cartitems.xml" value="0.2171350861287398" />
+        <entry key="..\:/Users/2345106/AndroidStudioProjects/AndroidStudioProjects/DivergeApp/app/src/main/res/layout/item.xml" value="0.2171350861287398" />
+        <entry key="app/src/main/res/layout/activity_cart_view.xml" value="0.16535087719298244" />
+        <entry key="app/src/main/res/layout/activity_cart_view2.xml" value="0.16535087719298244" />
+        <entry key="app/src/main/res/layout/activity_category.xml" value="0.12817028985507245" />
+        <entry key="app/src/main/res/layout/activity_change_password.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_check_out.xml" value="0.16535087719298244" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.16535087719298244" />
+        <entry key="app/src/main/res/layout/activity_store.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/cartitems.xml" value="0.16535087719298244" />
+        <entry key="app/src/main/res/layout/item.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

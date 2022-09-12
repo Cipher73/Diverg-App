@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".StoreActivity"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="DIVERGE APP"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/choosestore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appname"
+        android:textStyle="italic|bold"
+
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:text="CHOOSE STORE"
+        android:textSize="20dp"></TextView>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/choosestore"
+
+        android:columnCount="2"
+        android:rowCount="6">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/MacDonalds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <LinearLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgMcD"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/mcd"></ImageView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="McDonalds"
+                    android:textAlignment="center"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pizzahut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <LinearLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:textColor="@color/black"
+                    android:id="@+id/imgPizzaHut"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pizaahut"></ImageView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pizza Hut"
+                    android:textAlignment="center"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/burgerking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_shadow_start_color"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/burgerking"></ImageView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Burger King"
+                    android:textAlignment="center"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pnpliquor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_shadow_start_color"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pnpl"></ImageView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PnP Liquor"
+                    android:textAlignment="center"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/romans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_shadow_start_color"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/romans"></ImageView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Romans Pizza"
+                    android:textAlignment="center"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/checkersliquor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_shadow_start_color"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/checkersl"></ImageView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Checkers Liquor"
+                    android:textAlignment="center"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rocomamas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_shadow_start_color"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/rocomamas"></ImageView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Roco Mamas"
+                    android:textAlignment="center"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/kfc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_shadow_start_color"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/kfc"></ImageView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KFC"
+                    android:textAlignment="center"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/chicken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_shadow_start_color"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/chicken"></ImageView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chicken Licken"
+                    android:textAlignment="center"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/nandos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_shadow_start_color"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/nandos"></ImageView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nandos"
+                    android:textAlignment="center"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/steers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_shadow_start_color"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/steers"></ImageView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Steers"
+                    android:textAlignment="center"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/debonairs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="@color/cardview_shadow_start_color"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/debonaires"></ImageView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Debonairs"
+                    android:textAlignment="center"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+</RelativeLayout>
+</ScrollView>

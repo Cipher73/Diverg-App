@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:background="@color/white"
+    android:layout_margin="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/mcd"
+                android:scaleType="centerInside"
+                android:layout_gravity="center">
+
+            </ImageView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/fdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="food title"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                ></TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description : "
+                    android:textSize="15dp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:textSize="15dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Price for item : "
+                    android:textSize="15dp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Number of this item: "
+                    android:textSize="15dp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Count"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

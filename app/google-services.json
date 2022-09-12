@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "396274174388",
+    "firebase_url": "https://divergeapp-default-rtdb.firebaseio.com",
+    "project_id": "divergeapp",
+    "storage_bucket": "divergeapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396274174388:android:53034fd78780260d40cae1",
+        "android_client_info": {
+          "package_name": "com.example.divergeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396274174388-3g7p4ml7n18ogi9enpn56hmer3kvreid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDla0Y0qlj1es-ifneFVu3-yeVPNjmmXmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396274174388-3g7p4ml7n18ogi9enpn56hmer3kvreid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
